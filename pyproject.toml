@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "hot-nerds-server"
+version = "0.0.1"
+description = "HOT Nerds Server"
+authors = ["hadrizi <vbyhgn@gmail.com>"]
+readme = "README.md"
+packages = [{include = "src"}]
+
+[tool.poetry.dependencies]
+python = "3.12.4"
+fastapi = "^0.111.1"
+pydantic = "^2.8.2"
+SQLAlchemy = "^2.0.31"
+fastapi-auth-middleware = "^1.0.2"
+pydantic-settings = "^2.3.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
